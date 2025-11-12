@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejidos con Amor - Crochet Artesanal</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Tejidos con Amor 🧶</h1>
+        <p>Tu tienda de artículos de crochet hechos a mano con pasión.</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="hero">
+            <h2>Bienvenido/a a nuestro mundo de hilos y agujas.</h2>
+            <p>Descubre piezas únicas: amigurumis, accesorios, decoración para el hogar y mucho más.</p>
+            <a href="#productos" class="btn">Ver Productos</a>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos Destacados</h2>
+            <div class="galeria">
+                <article class="producto-card">
+                    <img src="imagenes/foto8.jpg" alt="Amigurumi de superman">
+                    <h3>Amigurumi de superman</h3>
+                    <p class="precio">$15.000 ARS</p>
+                    <p>El Hombre de Acero, ¡pero más suave!</p>
+                </article>
+
+                <article class="producto-card">
+                    <img src="imagenes/foto5.jpg" alt="Spiderman amigurumi">
+                    <h3>Amigurumi de spiderman</h3>
+                    <p class="precio">$12.000 ARS</p>
+                    <p>¡Tu amistoso vecino arácnido, ahora en hilo!</p>
+                </article>
+
+                <article class="producto-card">
+                    <img src="imagenes/foto6.jpg" alt="Amigurumi de vaca">
+                    <h3>Amigurumi de vaca</h3>
+                    <p class="precio">$20.000 ARS</p>
+                    <p>Vaca de peluche tejida.</p>
+                </article>
+            </div>
+        </section>
+        <section id="carrusel-crochet">
+            <h2> Mas obras de tejido</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="imagenes/foto2.jpg" alt="Amigurumi de Cabra"  width="500" height="700" class="slide active">
+                    <img src="imagenes/foto3.jpg" alt="Amigurumi de zorro" class="slide">
+                    <img src="imagenes/foto4.jpg" alt="Amigurumi de Red Robin" class="slide">
+                    <img src="imagenes/foto7.jpg" alt="Amigurumi de batman, llavero" class="slide">
+                    <img src="imagenes/foto8.jpg" alt="Amigurumi de superman" class="slide">
+                    <img src="imagenes/foto9.jpg" alt="Amigurumi de conejo con un corazon en las manos" class="slide">
+                    <img src="imagenes/foto10.jpg" alt="Llavero de ramo de flores" class="slide">
+                    <img src="imagenes/foto11.jpeg" alt="Amigurumi de Ralsei" class="slide">
+                    <img src="imagenes/foto12.jpg" alt="Amigurumi de Red hood" class="slide">
+                </div>
+
+                <button class="prev" aria-label="Anterior">&#10094;</button>
+                <button class="next" aria-label="Siguiente">&#10095;</button>
+            </div>
+        </section>
+        <section id="sobre-nosotros">
+            <h2>Nuestra Historia</h2>
+            <p>Somos un pequeño emprendimiento que nació del amor por el crochet. Cada puntada es una dedicación, garantizando piezas de alta calidad y mucho corazón.</p>
+            <p>¡Gracias por apoyar el arte hecho a mano!</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>¿Tienes una idea o un pedido especial? ¡Escríbenos!</p>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tejidos con Amor. Todos los derechos reservados.</p>
+        <p>Síguenos en <a href="https://www.instagram.com/kais_crochets/" target="_blank">Instagram</a></p>
+    </footer>
+    <script src="java.js"></script> 
+</body>
+</html>
